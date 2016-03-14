@@ -1,5 +1,92 @@
-body {
-
-	background-color: #c0ffee;
-
+body{
+	margin: 0;
+	font-family: Helvetica, Arial;
 }
+#sister-sites a small {
+	display: block;
+	color: #777777;
+}
+
+#sister-sites li {
+	display: inline-block;
+	margin-right: 2px;
+	padding: 4px 5px 0 5px;
+	border: 1px solid transparent;
+	word-spacing: normal;
+}
+
+#sister-sites ul {
+	padding-left: 0;
+	margin: 0 auto;
+	/*background-color: red;
+*/	width: 960px;
+	font-size: smaller;
+}
+
+#sister-sites a {
+	text-decoration: none;
+	color: #0297d2;
+}
+
+#sister-sites {
+	background-color: #eeeeee;
+	padding-top: 7px;
+	/*padding-bottom: 4px;*/
+	border-bottom: 1px solid #aaaaaa;
+	word-spacing: -4px;
+}
+
+#active-site a {
+	color: #777777;
+}
+
+li#active-site {
+	background-color: white;
+	padding: 4px 5px 0 5px;
+	border-left: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+	border-right: 1px solid #aaaaaa;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	position: relative;
+	top: 1px;
+}
+
+#sister-sites li:hover:not(#active-site) {
+	background-color: white;
+	border: 1px solid #bde2f1;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+#sister-sites li:hover:not(#active-site) a,
+#sister-sites li:hover:not(#active-site) a small{
+	color: #5ec9ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
