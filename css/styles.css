@@ -5,6 +5,7 @@ body{
 #sister-sites a small {
 	display: block;
 	color: #777777;
+	font-weight: lighter;
 }
 
 #sister-sites li {
@@ -64,6 +65,117 @@ li#active-site {
 #sister-sites li:hover:not(#active-site) a small{
 	color: #5ec9ff;
 }
+
+main {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.product {
+	background-color: #eeeeee;
+	width: 19%;
+	height: 200px;
+	margin-bottom: 20px;
+	float: left;
+	margin-right: 8px;
+	position: relative;
+	border: 1px solid #aaaaaa;
+	box-sizing: border-box;
+}
+
+.product h2 {
+	font-size: 15px;
+	font-weight: normal;
+	margin-top: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #424947;
+	font-weight: lighter;
+}
+
+.product img {
+	max-width: 100%;
+}
+
+.product:last-child {
+	margin-right: 0;
+}
+
+.product div {
+	padding: 10px;
+}
+
+.product p {
+	font-weight: bold;
+	text-align: right;
+}
+
+.discount {
+	font-size: smaller;
+	background-color: #e34647;
+	color: white;
+	padding: 6px 8px;
+	font-weight: 100;
+	position: absolute;
+	top: 6px;
+	left: -5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
